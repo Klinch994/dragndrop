@@ -29,7 +29,7 @@ You can find the video guide for this tutorial here:
 https://drive.google.com/file/d/1PDMk7Ab-gb3xxxNIl3rLsIubp3BdESqZ/view?usp=drive_link
 ### Unreal Engine
 #### Unreal UI Components
-Unreal Engine Editor UI components are given below::
+Unreal Engine Editor UI components are given below:
 ![unreal_ui](https://github.com/Klinch994/dragndrop/assets/156119593/ba663940-1b1a-4adf-a8bb-b7d467423c0c)
 1.	Viewport: Provides a visual representation of the game world or level, allowing users to see and interact with the scene, manipulate objects, and observe gameplay elements.
 2.	World Outliner: Displays a hierarchical list of all the actors (entities) in the current level or scene, allowing users to manage, organize, and manipulate these entities.
