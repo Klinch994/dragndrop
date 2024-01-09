@@ -49,7 +49,8 @@ WIP
 DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using Drag and Drop functionalities, as can be seen in the GIF below:
 WIP
 #### Video Guide
-WIP
+You can find the video guide for this tutorial here:
+https://drive.google.com/file/d/1PDMk7Ab-gb3xxxNIl3rLsIubp3BdESqZ/view?usp=drive_link
 ### Summary
 WIP
 ### Appendix
