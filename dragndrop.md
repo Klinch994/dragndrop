@@ -56,6 +56,7 @@ WIP
 DragNDrop is so intuitive, we often don't realize how much time it saves compared to writing code to achieve the same result. Below is a Python script to demonstrate how basic DragNDrop works “under the hood”:
 
 import tkinter as tk
+
 def on_drag_start(event):
     # Store the starting position of the drag
     event.widget.startX = event.x
