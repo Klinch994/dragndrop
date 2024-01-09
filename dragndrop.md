@@ -25,7 +25,8 @@ DragNDrop simplifies importing assets (textures, models, audio files) into the U
 DragNDrop is used to assign components (scripts, materials, shaders) to game objects, as can be seen in the GIF below:
 ![unity-3d-component-gif](https://github.com/Klinch994/dragndrop/assets/156119593/6e1c94aa-e9f6-4610-9a7e-1bcb7dd5b574)
 #### Video Guide
-WIP
+You can find the video guide for this tutorial here:
+https://drive.google.com/file/d/1PDMk7Ab-gb3xxxNIl3rLsIubp3BdESqZ/view?usp=drive_link
 ### Unreal Engine
 #### Unreal UI Components
 In order to understand how DragNDrop works in Unreal Engine Editor, we need to familiarize ourselves with its UI. The breakdown of the UI components in Unreal Engine can be seen below:
@@ -49,8 +50,7 @@ WIP
 DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using Drag and Drop functionalities, as can be seen in the GIF below:
 WIP
 #### Video Guide
-You can find the video guide for this tutorial here:
-https://drive.google.com/file/d/1PDMk7Ab-gb3xxxNIl3rLsIubp3BdESqZ/view?usp=drive_link
+WIP
 ### Summary
 WIP
 ### Appendix
