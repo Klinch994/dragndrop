@@ -24,3 +24,65 @@ DragNDrop simplifies importing assets (textures, models, audio files) into the U
 ##### Component Assignment
 DragNDrop is used to assign components (scripts, materials, shaders) to game objects, as can be seen in the GIF below:
 ![unity-3d-component-gif](https://github.com/Klinch994/dragndrop/assets/156119593/6e1c94aa-e9f6-4610-9a7e-1bcb7dd5b574)
+#### Video Guide
+WIP
+### Unreal Engine
+#### Unreal UI Components
+In order to understand how DragNDrop works in Unreal Engine Editor, we need to familiarize ourselves with its UI. The breakdown of the UI components in Unreal Engine can be seen below:
+![unreal_ui](https://github.com/Klinch994/dragndrop/assets/156119593/ba663940-1b1a-4adf-a8bb-b7d467423c0c)
+##### UI and Editor Customization
+DragNDrop is used to customize the layout of the Unreal Editor, such as arranging panels, tabs, or windows to create a personalized workspace, as can be seen in the GIF below:
+WIP
+##### Scene Building
+DragNDrop allows for easy placement of assets (like models, prefabs, or UI elements) into the scene view to build the game environment, as can be seen in the GIF below:
+WIP
+##### Asset Importing
+Drag and Drop simplifies the process of importing assets (textures, models, audio files) into the Unreal Engine content browser by dragging them from the file explorer directly into the content folder, as can be seen in the GIF below:
+WIP
+##### Component Assignment
+DragNDrop is employed to assign components (materials, blueprints, particle systems) to actors or objects within the Details panel, as can be seen in the GIF below:
+WIP
+##### Asset Management and Organization
+DragNDrop assists in organizing assets within folders or hierarchies in the content browser for better project management, as can be seen in the GIF below:
+WIP
+##### Blueprint Functionality
+DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using Drag and Drop functionalities, as can be seen in the GIF below:
+WIP
+#### Video Guide
+WIP
+### Summary
+WIP
+### Appendix
+DragNDrop is so intuitive, we often don't realize how much time it saves compared to writing code to achieve the same result. Below is a Python script to demonstrate how basic DragNDrop works “under the hood”:
+import tkinter as tk
+
+def on_drag_start(event):
+    # Store the starting position of the drag
+    event.widget.startX = event.x
+    event.widget.startY = event.y
+
+def on_drag_motion(event):
+    # Calculate the distance moved since the drag started
+    x_delta = event.x - event.widget.startX
+    y_delta = event.y - event.widget.startY
+
+    # Move the dragged widget by the calculated deltas
+    event.widget.place(x=event.widget.winfo_x() + x_delta, y=event.widget.winfo_y() + y_delta)
+
+def create_draggable_label(root, text, x, y):
+    label = tk.Label(root, text=text, bg='lightblue')
+    label.place(x=x, y=y)
+
+    # Bind events to enable dragging
+    label.bind('<ButtonPress-1>', on_drag_start)
+    label.bind('<B1-Motion>', on_drag_motion)
+
+root = tk.Tk()
+root.geometry('400x300')
+
+#Create draggable labels
+create_draggable_label(root, 'Drag me', 50, 50)
+
+root.mainloop()
+
+Note that our script is very rudimentary – we didn’t have to worry about objects overlapping, types of objects or drop locations – all the things readily implemented in both engines.
