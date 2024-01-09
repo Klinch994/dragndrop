@@ -14,3 +14,4 @@ In order to understand how DragNDrop works in Unreal Engine Editor, we need to f
 #### DragNDrop Use Cases
 ##### Asset Importing
 Drag and Drop simplifies the process of importing assets (textures, models, audio files) into the Unreal Engine content browser by dragging them from the file explorer directly into the content folder, as can be seen in the GIF below:
+![unity-3d-ui-gif](https://github.com/Klinch994/dragndrop/assets/156119593/ea458dcd-5919-4c5c-8518-5dfdf735d436)
