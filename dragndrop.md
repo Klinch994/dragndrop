@@ -55,6 +55,7 @@ WIP
 ### Appendix
 DragNDrop is so intuitive, we often don't realize how much time it saves compared to writing code to achieve the same result. Below is a Python script to demonstrate how basic DragNDrop works “under the hood”:
 
+``` python
 import tkinter as tk
 
 def on_drag_start(event):
@@ -81,9 +82,9 @@ def create_draggable_label(root, text, x, y):
 root = tk.Tk()
 root.geometry('400x300')
 
-#Create draggable labels
+# Create draggable labels
 create_draggable_label(root, 'Drag me', 50, 50)
 
 root.mainloop()
-
+'''
 Note that our script is very rudimentary – we didn’t have to worry about objects overlapping, types of objects or drop locations – all the things readily implemented in both engines.
