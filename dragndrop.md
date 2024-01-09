@@ -87,4 +87,5 @@ create_draggable_label(root, 'Drag me', 50, 50)
 
 root.mainloop()
 '''
+
 Note that our script is very rudimentary – we didn’t have to worry about objects overlapping, types of objects or drop locations – all the things readily implemented in both engines.
