@@ -3,14 +3,14 @@
 DragNDrop is a common feature of game engine editors, that allows us to easily manipulate assets inside our game environment. This guide aims to introduce DragNDrop functionality to new users, in both Unreal and Unity 3D. 
 ## Motivation
 DragNDrop is the preferred method of asset manipulation in game development due to its intuitive and visual nature, allowing users, especially those new to the field like Junior Artists, to effortlessly interact with and position assets within the scene. This method reduces the learning curve and enhances productivity by providing a direct and tactile means of arranging and organizing elements, fostering a more user-friendly and efficient workflow.
-### Unreal Engine
-#### Unreal UI Components
-In order to understand how DragNDrop works in Unreal Engine Editor, we need to familiarize ourselves with its UI. The breakdown of the UI components in Unreal Engine can be seen below:
+### Unity 3D
+#### Unity 3D UI Components
+In order to understand how DragNDrop works in Unity 3d Engine Editor, we need to familiarize ourselves with its UI. The breakdown of the UI components in Unity 3D can be seen below:
 ![unity_3d_ui](https://github.com/Klinch994/dragndrop/assets/156119593/8f54b2e2-2250-49be-b279-0248b808fd09)
-1.	Viewport: Provides a visual representation of the game world or level, allowing users to see and interact with the scene, manipulate objects, and observe gameplay elements.
-2.	World Outliner: Displays a hierarchical list of all the actors (entities) in the current level or scene, allowing users to manage, organize, and manipulate these entities.
-3.	Details Panel: Offers comprehensive information and editable properties of the selected actor or asset, enabling users to fine-tune and configure their characteristics.
-4.	Content Browser: Serves as a central hub for all project assets, containing meshes, textures, materials, blueprints, and other resources used in the game development process.
+1.	Hierarchy: Displays a list of all the GameObjects in the current scene, showcasing the parent-child relationships and allowing users to organize and manage their entities.
+2.	Scene: Offers a visual representation of the game world, showcasing all the GameObjects and their placements, allowing users to manipulate and design the environment.
+3.	Inspector: Provides detailed information and properties of the selected GameObject, allowing users to modify and configure its components, scripts, and attributes.
+4.	Project: Serves as a hub for all project assets, containing files, resources, scripts, and other elements used in the game development process.
 #### DragNDrop Use Cases
 ##### UI and Editor Customization
 DragNDrop is applied in creating user interfaces or customizing the Unity Editor layout by dragging and dropping windows or panels as can be seen in the GIF below:
@@ -29,8 +29,12 @@ You can find the video guide for this tutorial here:
 https://drive.google.com/file/d/1PDMk7Ab-gb3xxxNIl3rLsIubp3BdESqZ/view?usp=drive_link
 ### Unreal Engine
 #### Unreal UI Components
-In order to understand how DragNDrop works in Unreal Engine Editor, we need to familiarize ourselves with its UI. The breakdown of the UI components in Unreal Engine can be seen below:
+Unreal Engine Editor UI components are given below::
 ![unreal_ui](https://github.com/Klinch994/dragndrop/assets/156119593/ba663940-1b1a-4adf-a8bb-b7d467423c0c)
+1.	Viewport: Provides a visual representation of the game world or level, allowing users to see and interact with the scene, manipulate objects, and observe gameplay elements.
+2.	World Outliner: Displays a hierarchical list of all the actors (entities) in the current level or scene, allowing users to manage, organize, and manipulate these entities.
+3.	Details Panel: Offers comprehensive information and editable properties of the selected actor or asset, enabling users to fine-tune and configure their characteristics.
+4.	Content Browser: Serves as a central hub for all project assets, containing meshes, textures, materials, blueprints, and other resources used in the game development process.
 ##### UI and Editor Customization
 DragNDrop is used to customize the layout of the Unreal Editor, such as arranging panels, tabs, or windows to create a personalized workspace, as can be seen in the GIF below:
 WIP
