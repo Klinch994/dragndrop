@@ -35,9 +35,7 @@ To toggle grid snapping, please refer to the image below:
 With an object clicked, select the **Move Tool** (1), then set **Toggle Tool Handle Rotation** (2) to **Global**. You can now **Toggle grid snapping** (3) as per your preferences.
 #### Video Guide
 You can find the video guide for this tutorial here:
-
-WIP
-
+https://drive.google.com/file/d/1zmq00JAxSSshtoWtUkyxLel1DnZdsSAz/view?usp=drive_link
 ### Unreal Engine
 #### Unreal UI Components
 Unreal Engine Editor UI components are given below:
