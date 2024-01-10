@@ -60,20 +60,20 @@ DragNDrop is employed to assign components (materials, blueprints, particle syst
 ![unreal-component-gif](https://github.com/Klinch994/dragndrop/assets/156119593/a56a83f6-8cbc-487b-8fd9-6f45980c4092)
 ##### Surface Snapping
 Surface snapping involves aligning and adjusting the position, rotation, or scale of objects to seamlessly fit and adhere to surfaces within the game world, enhancing the accuracy of object placement and alignment.
-To toggle surface snapping, please refer to the image below:
-WIP
+To toggle surface snapping, click on the **Surface Snapping** button in the Viewport toolbar and select **Surface Snapping**, as can be seen in the image below:
+![unreal_surface_snapping](https://github.com/Klinch994/dragndrop/assets/156119593/dd843c72-7d7e-4037-9c9d-16421be6d41b)
 
 ##### Blueprint Functionality
 DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using DragNDrop functionalities. For more information, please refer to the video guide of this section.
-
 #### Video Guide
-
-WIP
-
+You can find the video guide for this tutorial here:
+https://drive.google.com/file/d/1tatbqt_ZdbHot0NemzBeDNjjTYpQmEAv/view?usp=drive_link
 ## Summary
-
-WIP
-
+Both Unity 3D and Unreal Engine apply DragNDrop features in their editors to a high degree that is intuitive to users and their functionalities are mostly similar. However, there are some important differences between them:
+* **UI Management** - While both editors allow for a great deal of layout customization, Unreal's layout management feels more intuitive - tabs are snapped and you can see the preview of where your tab will land before you drop it, whereas in Unity the results can sometimes be unpredictable.
+* **Asset Management** - Unreal Engine allows us to DragNDrop any object type into Viewport, while Unity has some limitations. For instance, game objects cannot be moved from the Hierarchy into the Scene.
+* **Blueprint Management** - With Unreal Engine, visual development is brought to a new level with Blueprint's Event Graphs.
+Overall, Unreal Engine comes out slightly on top in terms of how DragNDrop is implemented.
 ## Appendix
 DragNDrop is so intuitive, we often don't realize how much time it saves compared to writing code to achieve the same result. Below is a Python script to demonstrate how basic DragNDrop works “under the hood”:
 ``` python
