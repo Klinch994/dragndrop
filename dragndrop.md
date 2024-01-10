@@ -31,9 +31,8 @@ To toggle surface snapping, hold Ctrl (Cmd on Mac) and Shift while clicking on a
 To toggle vertex snapping, hold V while clicking on an object with a translation tool selected. This can be seen in the GIF below:
 ![vertex-snapping-gif](https://github.com/Klinch994/dragndrop/assets/156119593/deb5dd46-95f3-4069-b4a6-32772b0429e0)
 To toggle grid snapping, please refer to the image below:
-
-WIP
-
+![unity_3d_grid_snapping](https://github.com/Klinch994/dragndrop/assets/156119593/fe7d454f-168a-4564-b1ff-fdc795d45124)
+With an object clicked, select the **Move Tool** (1), then set **Toggle Tool Handle Rotation** (2) to **Global**. You can now **Toggle grid snapping** (3) as per your preferences.
 #### Video Guide
 You can find the video guide for this tutorial here:
 
