@@ -24,9 +24,25 @@ DragNDrop simplifies importing assets (textures, models, audio files) into the U
 ##### Component Assignment
 DragNDrop is used to assign components (scripts, materials, shaders) to game objects, as can be seen in the GIF below:
 ![unity-3d-component-gif](https://github.com/Klinch994/dragndrop/assets/156119593/6e1c94aa-e9f6-4610-9a7e-1bcb7dd5b574)
+##### Surface Snapping
+Surface snapping involves aligning and adjusting the position, rotation, or scale of objects to seamlessly fit and adhere to surfaces within the game world, enhancing the accuracy of object placement and alignment.
+To toggle surface snapping, hold Ctrl (Cmd on Mac) and Shift while clicking on an object with a translation tool selected. This can be seen in the GIF below:
+
+WIP
+
+To toggle vertex snapping, hold V while clicking on an object with a translation tool selected. This can be seen in the GIF below:
+
+WIP
+
+To toggle grid snapping, please refer to the image below:
+
+WIP
+
 #### Video Guide
 You can find the video guide for this tutorial here:
-https://drive.google.com/file/d/1PDMk7Ab-gb3xxxNIl3rLsIubp3BdESqZ/view?usp=drive_link
+
+WIP
+
 ### Unreal Engine
 #### Unreal UI Components
 Unreal Engine Editor UI components are given below:
@@ -37,26 +53,40 @@ Unreal Engine Editor UI components are given below:
 4.	Content Browser: Serves as a central hub for all project assets, containing meshes, textures, materials, blueprints, and other resources used in the game development process.
 ##### UI and Editor Customization
 DragNDrop is used to customize the layout of the Unreal Editor, such as arranging panels, tabs, or windows to create a personalized workspace, as can be seen in the GIF below:
+
 WIP
+
 ##### Scene Building
 DragNDrop allows for easy placement of assets (like models, prefabs, or UI elements) into the scene view to build the game environment, as can be seen in the GIF below:
+
 WIP
+
 ##### Asset Importing
 Drag and Drop simplifies the process of importing assets (textures, models, audio files) into the Unreal Engine content browser by dragging them from the file explorer directly into the content folder, as can be seen in the GIF below:
+
 WIP
+
 ##### Component Assignment
 DragNDrop is employed to assign components (materials, blueprints, particle systems) to actors or objects within the Details panel, as can be seen in the GIF below:
+
 WIP
-##### Asset Management and Organization
-DragNDrop assists in organizing assets within folders or hierarchies in the content browser for better project management, as can be seen in the GIF below:
+
+##### Surface Snapping
+Surface snapping involves aligning and adjusting the position, rotation, or scale of objects to seamlessly fit and adhere to surfaces within the game world, enhancing the accuracy of object placement and alignment.
+
 WIP
+
 ##### Blueprint Functionality
-DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using Drag and Drop functionalities, as can be seen in the GIF below:
-WIP
+DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using Drag and Drop functionalities. For more information, please refer to the video guide for this section.
+
 #### Video Guide
+
 WIP
+
 ### Summary
+
 WIP
+
 ### Appendix
 DragNDrop is so intuitive, we often don't realize how much time it saves compared to writing code to achieve the same result. Below is a Python script to demonstrate how basic DragNDrop works “under the hood”:
 
