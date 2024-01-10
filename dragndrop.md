@@ -64,7 +64,7 @@ To toggle surface snapping, please refer to the image below:
 WIP
 
 ##### Blueprint Functionality
-DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using DragNDrop functionalities. For more information, please refer to the video guide for this section.
+DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using DragNDrop functionalities. For more information, please refer to the video guide of this section.
 
 #### Video Guide
 
