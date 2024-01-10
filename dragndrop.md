@@ -71,11 +71,11 @@ DragNDrop is utilized within Blueprints by showcasing examples of connecting nod
 
 WIP
 
-### Summary
+## Summary
 
 WIP
 
-### Appendix
+## Appendix
 DragNDrop is so intuitive, we often don't realize how much time it saves compared to writing code to achieve the same result. Below is a Python script to demonstrate how basic DragNDrop works “under the hood”:
 ``` python
 import tkinter as tk
