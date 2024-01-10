@@ -27,13 +27,9 @@ DragNDrop is used to assign components (scripts, materials, shaders) to game obj
 ##### Surface Snapping
 Surface snapping involves aligning and adjusting the position, rotation, or scale of objects to seamlessly fit and adhere to surfaces within the game world, enhancing the accuracy of object placement and alignment.
 To toggle surface snapping, hold Ctrl (Cmd on Mac) and Shift while clicking on an object with a translation tool selected. This can be seen in the GIF below:
-
-WIP
-
+![surface-snapping-gif](https://github.com/Klinch994/dragndrop/assets/156119593/725590a2-1dcd-4c00-a5e3-05f0c1724136)
 To toggle vertex snapping, hold V while clicking on an object with a translation tool selected. This can be seen in the GIF below:
-
-WIP
-
+![vertex-snapping-gif](https://github.com/Klinch994/dragndrop/assets/156119593/deb5dd46-95f3-4069-b4a6-32772b0429e0)
 To toggle grid snapping, please refer to the image below:
 
 WIP
@@ -53,31 +49,23 @@ Unreal Engine Editor UI components are given below:
 4.	Content Browser: Serves as a central hub for all project assets, containing meshes, textures, materials, blueprints, and other resources used in the game development process.
 ##### UI and Editor Customization
 DragNDrop is used to customize the layout of the Unreal Editor, such as arranging panels, tabs, or windows to create a personalized workspace, as can be seen in the GIF below:
-
-WIP
-
+![unreal-ui-gif](https://github.com/Klinch994/dragndrop/assets/156119593/9d824269-1ad0-4446-ae3b-4b35ae23eeea)
 ##### Scene Building
 DragNDrop allows for easy placement of assets (like models, prefabs, or UI elements) into the scene view to build the game environment, as can be seen in the GIF below:
-
-WIP
-
+![unreal-scene-gif](https://github.com/Klinch994/dragndrop/assets/156119593/b211cf0c-6cb6-4637-b38c-87a031ec573f)
 ##### Asset Importing
 Drag and Drop simplifies the process of importing assets (textures, models, audio files) into the Unreal Engine content browser by dragging them from the file explorer directly into the content folder, as can be seen in the GIF below:
-
-WIP
-
+![unreal-import-gif](https://github.com/Klinch994/dragndrop/assets/156119593/ba97c749-134b-407f-aef1-358bdc264aa8)
 ##### Component Assignment
 DragNDrop is employed to assign components (materials, blueprints, particle systems) to actors or objects within the Details panel, as can be seen in the GIF below:
-
-WIP
-
+![unreal-component-gif](https://github.com/Klinch994/dragndrop/assets/156119593/a56a83f6-8cbc-487b-8fd9-6f45980c4092)
 ##### Surface Snapping
 Surface snapping involves aligning and adjusting the position, rotation, or scale of objects to seamlessly fit and adhere to surfaces within the game world, enhancing the accuracy of object placement and alignment.
-
+To toggle surface snapping, please refer to the image below:
 WIP
 
 ##### Blueprint Functionality
-DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using Drag and Drop functionalities. For more information, please refer to the video guide for this section.
+DragNDrop is utilized within Blueprints by showcasing examples of connecting nodes, variables, or functions using DragNDrop functionalities. For more information, please refer to the video guide for this section.
 
 #### Video Guide
 
@@ -89,7 +77,6 @@ WIP
 
 ### Appendix
 DragNDrop is so intuitive, we often don't realize how much time it saves compared to writing code to achieve the same result. Below is a Python script to demonstrate how basic DragNDrop works “under the hood”:
-
 ``` python
 import tkinter as tk
 
